@@ -1,1 +1,1 @@
-pub mod Information;
+pub mod extract_metadata;
