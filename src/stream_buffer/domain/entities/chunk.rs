@@ -28,9 +28,6 @@ impl Chunk {
         &self.chunk_from
     }
 
-    pub fn get_metadata(&self) -> &Metadata {
-        &self.metadata
-    }
     pub fn get_buffer(&self) -> &Vec<u8> {
         &self.buffer
     }
@@ -41,5 +38,9 @@ impl Chunk {
 
     pub fn get_original_size(&self) -> Option<usize> {
         self.original_size
+    }
+
+    pub fn get_main_metadata(&self) -> &Metadata {
+        &self.metadata
     }
 }
