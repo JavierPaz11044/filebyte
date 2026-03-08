@@ -15,4 +15,15 @@ impl Metadata {
             mime_type: mime_type,
         }
     }
+    pub fn get_size(&self) -> u64 {
+        self.size
+    }
+
+    pub fn set_size(&mut self, size: u64) {
+        self.size = size;
+    }
+
+    pub fn get_mime_type(&self) -> String {
+        self.mime_type.clone()
+    }
 }

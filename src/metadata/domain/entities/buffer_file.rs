@@ -1,4 +1,4 @@
-use crate::entities::Metadata;
+use crate::metadata::domain::entities::Metadata;
 
 struct BufferFile {
     path: String,
