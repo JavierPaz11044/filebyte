@@ -1,4 +1,3 @@
-use crate::domain::enums::ContentType;
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Metadata {
     name: String,
